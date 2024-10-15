@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WheelLotto_v1.0.2.loader.js";
+      var loaderUrl = buildUrl + "/WheelLotto.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WheelLotto_v1.0.2.data.gz",
-        frameworkUrl: buildUrl + "/WheelLotto_v1.0.2.framework.js.gz",
-        codeUrl: buildUrl + "/WheelLotto_v1.0.2.wasm.gz",
+        dataUrl: buildUrl + "/WheelLotto.data.unityweb",
+        frameworkUrl: buildUrl + "/WheelLotto.framework.js.unityweb",
+        codeUrl: buildUrl + "/WheelLotto.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CatGrocery",
         productName: "WheelLotto",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/WheelLotto_v1.0.2.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/WheelLotto.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
